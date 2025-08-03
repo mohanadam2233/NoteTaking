@@ -1,0 +1,21 @@
+{
+  "name": "note_takingapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Bckend && npm install --prefix Frontend && npm run build --prefix Frontend",
+    "start": "npm run start --prefix Bckend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanadam2233/NoteTaking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohanadam2233/NoteTaking/issues"
+  },
+  "homepage": "https://github.com/mohanadam2233/NoteTaking#readme",
+  "description": ""
+}
